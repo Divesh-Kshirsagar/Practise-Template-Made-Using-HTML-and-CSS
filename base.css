@@ -1,0 +1,165 @@
+/*Model Fixes
+-----------------------------------------------*/
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0%;
+    height: 100%;
+}
+
+
+/*Global Styles
+-----------------------------------------------*/
+html{
+    font-size: 16px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffaf5;
+}
+
+main{
+    width: 96%;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*Header
+-----------------------------------------------*/
+header{
+    margin: auto;
+    width: 96%;
+    height: 10%;
+}
+
+header section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+header section ul{
+    display: flex;
+    gap: 2rem;
+}
+
+
+/*Hero Section
+-----------------------------------------------*/
+.hero-section{
+    position: relative;
+    text-align: center;
+    padding: 2%;
+}
+
+.hero-image{
+    /* Image Size */
+    max-width: 100%;
+    height: auto;
+    /* Other Properties */
+    opacity: 85%;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*Skill Section
+-----------------------------------------------*/
+.skills{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(255, 255, 188); */
+    padding: 10% 5%;
+    position: relative;
+}
+ 
+.skills div{
+    width: 50%;
+    margin: 2%;
+}
+
+.skills div img{
+    height: auto;
+    width: 100%;
+    z-index: 2;
+}
+
+
+/*Footer
+-----------------------------------------------*/
+footer{
+    width: 96%;
+}
+
+.social-media{
+    margin: auto;
+}
+
+.social-media div{
+    width: 25px;
+    margin: 1%;
+    display: inline-block;
+}
+
+.social-media-icons{
+    height: auto;
+    width: 100%;
+}
+
+
+/*Bouncing Ball Animation
+-----------------------------------------------*/
+/* CSS for Animation */
+/* @keyframes bounce {
+    0% { transform: translateY(0); background-color: pink; }
+    25%{
+      transform:translateY(100px);
+    }
+    50% { transform: translateX(100px); background-color: red; }
+    75%{
+      transform:translateY(-100px);
+    }
+    100% { transform: translateY(0); background-color: pink; }
+  }
+
+/* CSS For making Ball */
+/*
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: pink;
+    position: absolute;
+    z-index: -1;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} */
+
